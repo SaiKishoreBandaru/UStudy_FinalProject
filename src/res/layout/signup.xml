@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.59"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf,HardcodedText" >
+            
+            
+     <TextView 
+		android:id="@+id/textView1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="USER REGISTRATION" 
+		android:layout_marginLeft="60dp" 
+		android:layout_marginBottom="20dp" 
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+    <!-- First Name -->
+
+    <TextView
+        android:id="@+id/tv_fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/first_name"
+        android:textColor="#444444"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/et_fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10" android:inputType="">
+        <requestFocus />
+    </EditText>
+
+    <!-- Last Name -->
+
+    <TextView
+        android:id="@+id/tv_lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/last_name"
+        android:textColor="#444444"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/et_lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10" android:inputType="" />
+        
+    
+    <!-- E-Mail -->
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/e_mail"
+        android:textColor="#444444"
+        android:textSize="10pt" />
+   
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <!-- Address -->
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/address"
+        android:textColor="#444444"
+        android:textSize="10pt"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10" android:inputType=""/>
+    
+    <!-- 	City	 -->
+    
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="City"
+        android:textColor="#444444"
+        android:textSize="10pt"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10" android:inputType=""/>
+    
+     <!-- 	State	 -->
+    
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="State"
+        android:textColor="#444444"
+        android:textSize="10pt"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10" android:inputType="" />
+    
+    <!-- 	Country	 -->
+    
+    <TextView
+        android:id="@+id/tv_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="Country"
+        android:textColor="#444444"
+        android:textSize="10pt"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10" android:inputType="" />
+    
+     <!-- 	Zip Code	 -->
+    
+    <TextView
+        android:id="@+id/tv_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="Zip Code"
+        android:textColor="#444444"
+        android:textSize="10pt"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10" android:inputType="" />
+    
+         <!-- 	Create User Name	 -->
+    
+    <TextView
+        android:id="@+id/tv_cuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="User Name"
+        android:textColor="#444444"
+        android:textSize="10pt"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_cuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10" android:inputType="" />
+    
+     <!-- 	Create Password	 -->
+    
+    <TextView
+        android:id="@+id/tv_cpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="Password"
+        android:textColor="#444444"
+        android:textSize="10pt"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_cpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType=""
+        android:password="true"
+        tools:ignore="Deprecated" />
+    
+     <!-- 	Confirm Password	 -->
+    
+    <TextView
+        android:id="@+id/tv_cnfpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="Confirm Password"
+        android:textColor="#444444"
+        android:textSize="10pt"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_cnfpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType=""
+        android:password="true"
+        tools:ignore="Deprecated" />
+    
+    <!--  Submit Button -->
+    
+    <Button
+        android:id="@+id/btnregsub"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+        
+    
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
