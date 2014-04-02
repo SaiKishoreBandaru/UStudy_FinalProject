@@ -15,5 +15,12 @@
     <string name="open_new_screen">Open New Screen</string>
     <string name="guest_user">Guest User</string>
     <string name="sign_up">Sign Up</string>
+    <string name="spin">Financial Limit</string>
+    <string-array name="spinnerItems">
+        <item>Medium</item>
+        <item>Low</item>
+        <item>High</item>
+        <item>Economical with Aid</item>
+    </string-array>
 
 </resources>
