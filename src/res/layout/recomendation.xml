@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@layout/header_gradient"
+    android:orientation="vertical" >
+    
+<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.59" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:orientation="vertical">
+            
+            <Button
+                 android:id="@+id/btnlogout"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="right"
+                 android:text="Logout" />
+            
+     <TextView 
+		android:id="@+id/welcomehome" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="Welcome to UStudy" 
+		android:layout_marginLeft="60dp" 
+		android:layout_marginBottom="20dp" 
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+     <Spinner 
+         android:id="@+id/spinner1" 
+         android:layout_width="320dp" 
+         android:layout_height="wrap_content" 
+         android:background="@android:drawable/btn_dropdown"
+         android:entries="@array/country_arrays"
+         android:prompt="@string/country_prompt"
+         android:spinnerMode="dropdown" />
+     
+         
+         <Spinner 
+         android:id="@+id/spinner2" 
+         android:layout_width="320dp" 
+         android:layout_height="wrap_content" 
+         android:background="@android:drawable/btn_dropdown"
+         android:entries="@array/gre_arrays"
+         android:prompt="@string/gre_prompt"
+         android:spinnerMode="dropdown" />
+         
+         <Spinner 
+         android:id="@+id/spinner3" 
+         android:layout_width="320dp" 
+         android:layout_height="wrap_content" 
+         android:background="@android:drawable/btn_dropdown"
+         android:entries="@array/toefl_arrays"
+         android:prompt="@string/toefl_prompt"         
+         android:spinnerMode="dropdown" />
+		
+         <Spinner 
+         android:id="@+id/spinner4" 
+         android:layout_width="320dp" 
+         android:layout_height="wrap_content" 
+         android:background="@android:drawable/btn_dropdown"
+         android:entries="@array/fees_arrays"
+         android:prompt="@string/fees_prompt"         
+         android:spinnerMode="dropdown" />
+         
+         <RadioGroup
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             
+             <TextView
+                 android:layout_width="102dp"
+                 android:layout_height="wrap_content"
+                 android:text="Financial Aid" >
+                 
+             </TextView>
+             
+             <RadioButton                 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/finance_yes" />
+             <RadioButton                 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/finance_no" />
+         </RadioGroup>
+         
+         
+         <Button
+             android:id="@+id/searchbtn"
+             android:layout_width="100dip"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:text="search" />
+         
+         
+         <TextView 
+		android:id="@+id/recomend" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="Recomendations" 
+		android:layout_marginLeft="0dp" 
+		android:layout_marginBottom="20dp" 
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+         <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="ITT Technical Institute-Boise" />
+             
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="University of Florida" />
+                 
+                 <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="California State University-Los Angeles" />
+             
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Louisiana State University Health Sciences Center-New Orleans" />
+     
+      </LinearLayout>
+    </ScrollView>
+    
+    
+</LinearLayout>

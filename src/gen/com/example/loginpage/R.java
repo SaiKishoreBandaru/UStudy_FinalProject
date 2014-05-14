@@ -8,6 +8,9 @@
 package com.example.loginpage;
 
 public final class R {
+    public static final class array {
+        public static final int spinnerItems=0x7f060000;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -24,41 +27,42 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080022;
-        public static final int btn_login=0x7f080001;
-        public static final int btnregsub=0x7f080020;
-        public static final int et_address=0x7f080011;
-        public static final int et_city=0x7f080013;
-        public static final int et_cnfpwd=0x7f08001f;
-        public static final int et_country=0x7f080017;
-        public static final int et_cpwd=0x7f08001d;
-        public static final int et_cuser=0x7f08001b;
-        public static final int et_email=0x7f08000f;
-        public static final int et_fname=0x7f08000b;
-        public static final int et_lname=0x7f08000d;
-        public static final int et_password=0x7f080004;
-        public static final int et_state=0x7f080015;
-        public static final int et_username=0x7f080002;
-        public static final int et_zip=0x7f080019;
-        public static final int guestbtn=0x7f080006;
-        public static final int scrollView1=0x7f080008;
-        public static final int signupbtn=0x7f080007;
-        public static final int textView1=0x7f080009;
-        public static final int tv_address=0x7f080010;
-        public static final int tv_city=0x7f080012;
-        public static final int tv_cnfpwd=0x7f08001e;
-        public static final int tv_country=0x7f080016;
-        public static final int tv_cpwd=0x7f08001c;
-        public static final int tv_cuser=0x7f08001a;
-        public static final int tv_email=0x7f08000e;
-        public static final int tv_error=0x7f080000;
-        public static final int tv_fname=0x7f08000a;
-        public static final int tv_lname=0x7f08000c;
-        public static final int tv_password=0x7f080005;
-        public static final int tv_state=0x7f080014;
-        public static final int tv_username=0x7f080003;
-        public static final int tv_zip=0x7f080018;
-        public static final int welcomehome=0x7f080021;
+        public static final int action_settings=0x7f090023;
+        public static final int btn_login=0x7f090001;
+        public static final int btnregsub=0x7f090020;
+        public static final int et_address=0x7f090011;
+        public static final int et_city=0x7f090013;
+        public static final int et_cnfpwd=0x7f09001f;
+        public static final int et_country=0x7f090017;
+        public static final int et_cpwd=0x7f09001d;
+        public static final int et_cuser=0x7f09001b;
+        public static final int et_email=0x7f09000f;
+        public static final int et_fname=0x7f09000b;
+        public static final int et_lname=0x7f09000d;
+        public static final int et_password=0x7f090004;
+        public static final int et_state=0x7f090015;
+        public static final int et_username=0x7f090002;
+        public static final int et_zip=0x7f090019;
+        public static final int guestbtn=0x7f090006;
+        public static final int scrollView1=0x7f090008;
+        public static final int signupbtn=0x7f090007;
+        public static final int spinner1=0x7f090022;
+        public static final int textView1=0x7f090009;
+        public static final int tv_address=0x7f090010;
+        public static final int tv_city=0x7f090012;
+        public static final int tv_cnfpwd=0x7f09001e;
+        public static final int tv_country=0x7f090016;
+        public static final int tv_cpwd=0x7f09001c;
+        public static final int tv_cuser=0x7f09001a;
+        public static final int tv_email=0x7f09000e;
+        public static final int tv_error=0x7f090000;
+        public static final int tv_fname=0x7f09000a;
+        public static final int tv_lname=0x7f09000c;
+        public static final int tv_password=0x7f090005;
+        public static final int tv_state=0x7f090014;
+        public static final int tv_username=0x7f090003;
+        public static final int tv_zip=0x7f090018;
+        public static final int welcomehome=0x7f090021;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -66,7 +70,7 @@ public final class R {
         public static final int ustudyhome=0x7f030002;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -82,6 +86,7 @@ public final class R {
         public static final int open_new_screen=0x7f05000b;
         public static final int password_=0x7f050004;
         public static final int sign_up=0x7f05000d;
+        public static final int spin=0x7f05000e;
         public static final int user_name_=0x7f050003;
     }
     public static final class style {
@@ -106,10 +111,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

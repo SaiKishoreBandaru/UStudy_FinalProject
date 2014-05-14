@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">LoginPage</string>
+    <string name="app_name">UStudy</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="user_name_">User Name:</string>
@@ -15,12 +15,103 @@
     <string name="open_new_screen">Open New Screen</string>
     <string name="guest_user">Guest User</string>
     <string name="sign_up">Sign Up</string>
-    <string name="spin">Financial Limit</string>
-    <string-array name="spinnerItems">
-        <item>Medium</item>
-        <item>Low</item>
-        <item>High</item>
-        <item>Economical with Aid</item>
+    <string name="todo">TODO</string>
+    
+    <string name="country_prompt">Choose a Location</string> 
+    <string-array name="country_arrays">
+        <item>Choose a Location</item>
+        <item>AK - Alaska</item>
+        <item>AL - Alabama</item>
+        <item>AR - Arkansas</item>
+        <item>AZ - Arizona</item>
+        <item>CA - California</item>
+        <item>CO - Colorado</item>
+        <item>CT - Connecticut</item>
+        <item>DC - District of Columbia</item>
+        <item>DE - Delaware</item>
+        <item>FL - Florida</item>
+        <item>GA - Georgia</item>
+        <item>HI - Hawaii</item>
+        <item>IA - Iowa</item>
+        <item>ID - Idaho</item>
+        <item>IL - Illinois</item>
+        <item>IN - Indiana</item>
+        <item>KS - Kansas</item>
+        <item>KY - Kentucky</item>
+        <item>LA - Louisiana</item>
+        <item>MA - Massachusetts</item>
+        <item>MD - Maryland</item>
+        <item>ME - Maine</item>
+        <item>MI - Michigan</item>
+        <item>MN - Minnesota</item>
+        <item>MO - Missouri</item>
+        <item>MS - Mississippi</item>
+        <item>MT - Montana</item>
+        <item>NC - North Carolina</item>
+        <item>ND - North Dakota</item>
+        <item>NE - Nebraska</item>
+        <item>NH - New Hampshire</item>
+        <item>NJ - New Jersey</item>
+        <item>NM - New Mexico</item>
+        <item>NV - Nevada</item>
+        <item>NY - New York</item>
+        <item>OH - Ohio</item>
+        <item>OK - Oklahoma</item>
+        <item>OR - Oregon</item>
+        <item>PA - Pennsylvania</item>
+        <item>RI - Rhode Island</item>
+        <item>SC - South Carolina</item>
+        <item>TA - </item>
+        <item>VN - </item>
+        <item>WV - West Virginia</item>       
     </string-array>
+    
+    
+    <string name="gre_prompt">Choose your GRE score</string>
+    <string-array name="gre_arrays">
+        <item>Choose your GRE score</item>
+        <item>260-279</item>
+        <item>280-289</item>
+        <item>290-299</item>
+        <item>300-309</item>
+        <item>310-319</item>
+        <item>320-329</item>
+        <item>330-340</item>
+    </string-array>
+    
+    <string name="toefl_prompt">Choose your Toefl score</string>
+    <string-array name="toefl_arrays">
+        <item>Choose your Toefl score</item>
+        <item>79-85</item>
+        <item>86-90</item>
+        <item>91-95</item>
+        <item>96-100</item>
+        <item>101-105</item>
+        <item>106-110</item>
+        <item>111-115</item>
+        <item>116-120</item>
+    </string-array>
+    
+    <string name="fees_prompt">Choose your fees range</string>
+    <string-array name="fees_arrays">
+        <item>Choose your fees range</item>
+        <item>upto 10000</item>
+        <item>10000 - 20000</item>
+        <item>20000 - 30000</item>
+        <item>30000 - 40000</item>
+        <item>40000 - 50000</item>
+        
+    </string-array>
+    
+    
+   
+    <string name="finance">Finance</string>
+    <string name="finance_yes">Yes</string>
+    <string name="finance_no">No</string>
+    <string name="textview">TextView</string>
+    <string name="balakrishna">Balakrishna</string>
+    
+        
+        
 
 </resources>
